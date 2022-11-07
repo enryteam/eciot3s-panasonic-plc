@@ -1,43 +1,43 @@
 {
-  "name": "eciot3s-panasonic-plc",
-  "version": "1.0.0",
-  "description": "尊创科技",
-  "author": "zunchuang.tech",
-  "license": "MIT",
-  "main": "node",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "jsmewtocol": "^0.0.6"
-  },
-  "keywords": [
-    "node-red",
-    "eciot",
-    "eciot3s-panasonic-plc",
-    "node-red-contrib-panasonic-plc"
-  ],
-  "engines": {
-    "node": ">=12.17.0"
-  },
-  "node-red": {
-    "version": ">=2",
-    "nodes": {
-      "Mewtocol-Client": "mewtocol/mewtocol-client.js",
-      "Mewtocol-RD": "mewtocol/mewtocol-rd.js",
-      "Mewtocol-RCC": "mewtocol/mewtocol-rcc.js",
-      "Mewtocol-RCS": "mewtocol/mewtocol-rcs.js",
-      "Mewtocol-RT": "mewtocol/mewtocol-rt.js",
-      "Mewtocol-RR": "mewtocol/mewtocol-rr.js",
-      "Mewtocol-RS": "mewtocol/mewtocol-rs.js",
-      "Mewtocol-RK": "mewtocol/mewtocol-rk.js"
+    "name": "eciot3s-panasonic-plc",
+    "version": "2.0.0",
+    "description": "尊创科技",
+    "author": "zunchuang.tech",
+    "license": "MIT",
+    "main": "node",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "jsmewtocol": "^0.0.6"
+    },
+    "keywords": [
+      "node-red",
+      "eciot",
+      "eciot3s-panasonic-plc",
+      "node-red-contrib-panasonic-plc"
+    ],
+    "engines": {
+      "node": ">=12.17.0"
+    },
+    "node-red": {
+      "version": ">=2",
+      "nodes": {
+        "Mewtocol-Client": "mewtocol/mewtocol-client.js",
+        "Mewtocol-RD": "mewtocol/mewtocol-rd.js",
+        "Mewtocol-RCC": "mewtocol/mewtocol-rcc.js",
+        "Mewtocol-RCS": "mewtocol/mewtocol-rcs.js",
+        "Mewtocol-RT": "mewtocol/mewtocol-rt.js",
+        "Mewtocol-RR": "mewtocol/mewtocol-rr.js",
+        "Mewtocol-RS": "mewtocol/mewtocol-rs.js",
+        "Mewtocol-RK": "mewtocol/mewtocol-rk.js"
+      }
+    },
+    "files": [
+      "mewtocol/**/*"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/enryteam/eciot3s-keyence-plc.git"
     }
-  },
-  "files": [
-    "mewtocol/**/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/enryteam/eciot3s-keyence-plc.git"
   }
-}
