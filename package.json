@@ -38,7 +38,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oleg31337/node-red-contrib-mewtocol.git"
-  },
-  "homepage": "https://github.com/oleg31337/node-red-contrib-mewtocol#readme"
+    "url": "https://github.com/enryteam/eciot3s-keyence-plc.git"
+  }
 }
